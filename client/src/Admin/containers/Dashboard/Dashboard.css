@@ -1,0 +1,172 @@
+.container {
+    margin: -30px auto;
+}
+
+.cards {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 170px;
+}
+
+.card {
+    height: 130px;
+    width: 20%;
+    background-color: rgba(235, 233, 233, 0.7);
+    border-radius: 5px;
+}
+
+.img {
+    height: 60px;
+    width: 60px;
+    border-radius: 10px;
+    margin: 15px 0 0 15px;
+}
+
+.amount {
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bolder;
+    color: rgb(79, 160, 79);
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.title {
+    text-align: center;
+    font-weight: bold;
+    margin-left: 70px;
+    font-size: 20px;
+    color: rgb(0, 49, 0);
+}
+
+/* dropdown css */
+
+.dropdown {
+    width: 30%;
+    margin: 20px auto;
+}
+
+.city {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 10px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+/* ordres tabel css */
+
+.orders {
+    margin: 10px 0 10px 165px;
+}
+
+/* pagination css */
+
+.pagination {
+    height: 36px;
+    margin: 18px 300px;
+    color: #6c58bF;
+}
+
+.pagination ul {
+    display: inline-block;
+    *display: inline;
+    /* IE7 inline-block hack */
+    *zoom: 1;
+    margin-left: 0;
+    color: #ffffff;
+    margin-bottom: 0;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.pagination li {
+    display: inline;
+    font-size: 20px;
+    color: green;
+}
+
+.pagination a {
+    float: left;
+    padding: 0 14px;
+    line-height: 34px;
+    color: green;
+    text-decoration: none;
+    border: 1px solid #ddd;
+    border-left-width: 0;
+}
+
+.pagination a:hover, .pagination .active a {
+    background-color: green;
+    color: #ffffff;
+}
+
+.pagination a:focus {
+    background-color: green;
+    color: #ffffff;
+}
+
+.pagination .active a {
+    color: #ffffff;
+    cursor: default;
+}
+
+.pagination .disabled span, .pagination .disabled a, .pagination .disabled a:hover {
+    color: #999999;
+    background-color: transparent;
+    cursor: default;
+}
+
+.pagination li:first-child a {
+    border-left-width: 1px;
+    -webkit-border-radius: 3px 0 0 3px;
+    -moz-border-radius: 3px 0 0 3px;
+    border-radius: 3px 0 0 3px;
+}
+
+.pagination li:last-child a {
+    -webkit-border-radius: 0 3px 3px 0;
+    -moz-border-radius: 0 3px 3px 0;
+    border-radius: 0 3px 3px 0;
+}
+
+.pagination-centered {
+    text-align: center;
+}
+
+.pagination-right {
+    text-align: right;
+}
+
+/* chart style */
+
+.chartStyle {
+    width: 500px;
+    height: 100px;
+    margin-top: 150px;
+}
+
+/* garbage details card css */
+
+.container1 {
+    margin-top: -90px;
+    margin-bottom: 120px;
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+}
+
+.graphcard{
+    margin-top: 200px;
+}
+
+.total{
+    background-color: rgb(157, 212, 191);
+}
+

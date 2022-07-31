@@ -1,0 +1,174 @@
+.container {
+    /* height: 250px; */
+    width: 80%;
+    margin: 140px auto;
+    background-color: white;
+    box-shadow: 2px 6px 41px 0 rgba(0, 0, 0, .15);
+    padding: 20px 20px 60px 20px;
+}
+
+.amount {
+    height: 20%;
+    display: flex;
+}
+
+.walletimg {
+    height: 50px;
+    width: 50px;
+    margin-right: 20px;
+}
+
+.title {
+    font-family: 'Lora', serif;
+    margin: 0px 43%;
+}
+
+.redeembtn {
+    height: 80%;
+    width: 15%;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 500px;
+}
+
+.redeemamt {
+    width: 50%;
+    margin: 20px auto;
+}
+
+.amountInput {
+    border-radius: 15px;
+    border: 5px solid black;
+}
+
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+/* Extra styles for the cancel button */
+
+.btncancel {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+
+/* Float cancel and redeem buttons and add an equal width */
+
+.btncancel, .btnsuccess {
+    float: left;
+    width: 50%;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+/* table css */
+
+table, tr, td, th {
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+}
+
+.transaction {
+    margin: 30px auto;
+    text-align: left;
+}
+
+th {
+    background-color: rgb(128, 128, 128);
+    color: white;
+}
+
+.heading {
+    margin: 20px auto;
+    float: left;
+}
+
+/* pagination style */
+
+.pagination {
+    height: 36px;
+    margin: 18px 250px;
+    color: #6c58bF;
+}
+
+.pagination ul {
+    display: inline-block;
+    *display: inline;
+    /* IE7 inline-block hack */
+    *zoom: 1;
+    margin-left: 0;
+    color: #ffffff;
+    margin-bottom: 0;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.pagination li {
+    display: inline;
+    font-size: 20px;
+    color: green;
+}
+
+.pagination a {
+    float: left;
+    padding: 0 14px;
+    line-height: 34px;
+    color: green;
+    text-decoration: none;
+    border: 1px solid #ddd;
+    border-left-width: 0;
+}
+
+.pagination a:hover,
+.pagination .active a {
+    background-color: green;
+    color: #ffffff;
+}
+
+.pagination a:focus {
+    background-color: green;
+    color: #ffffff;
+}
+
+
+.pagination .active a {
+    color: #ffffff;
+    cursor: default;
+}
+
+.pagination .disabled span,
+.pagination .disabled a,
+.pagination .disabled a:hover {
+    color: #999999;
+    background-color: transparent;
+    cursor: default;
+}
+
+.pagination li:first-child a {
+    border-left-width: 1px;
+    -webkit-border-radius: 3px 0 0 3px;
+    -moz-border-radius: 3px 0 0 3px;
+    border-radius: 3px 0 0 3px;
+}
+
+.pagination li:last-child a {
+    -webkit-border-radius: 0 3px 3px 0;
+    -moz-border-radius: 0 3px 3px 0;
+    border-radius: 0 3px 3px 0;
+}
+
+.pagination-centered {
+    text-align: center;
+}
+
+.pagination-right {
+    text-align: right;
+}

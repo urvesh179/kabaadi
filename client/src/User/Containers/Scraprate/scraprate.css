@@ -1,0 +1,45 @@
+.container{
+    width: auto;
+    margin-bottom: 80px;
+    box-sizing: border-box;
+}
+
+
+.container1{
+    
+    margin-top: 115px;
+    margin-left: 50px;
+    padding: 10px 0;
+    background-image: linear-gradient(to bottom,transparent,#fff),url(https://www.thekabadiwala.com/images/background-image.png);
+    background-repeat: no-repeat;
+}
+
+.paper{
+    margin-top: 40px;
+    margin-left: 80px;
+}
+
+.paperinfo{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 8px;
+    margin-left: 8px;
+    width: 700px;
+}
+
+.items{
+    width: auto;
+    height: 60px;
+    margin: 10px;
+    padding: 5px 10px;
+    display: inline;
+    border-radius: 5px;
+    background-color:rgb(97, 133, 97);
+}
+
+.itemname{
+    display: flex;
+    justify-content: center;
+    margin: 3px auto;
+    color: snow;
+}

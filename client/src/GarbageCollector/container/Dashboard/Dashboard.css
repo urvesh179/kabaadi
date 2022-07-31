@@ -1,0 +1,61 @@
+.container{
+    margin: 120px auto;
+}
+
+.cards {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 120px;
+}
+
+.card {
+    height: 130px;
+    width: 20%;
+    background-color: rgba(235, 233, 233, 0.7);
+    border-radius: 5px;
+}
+
+.img {
+    height: 60px;
+    width: 60px;
+    border-radius: 10px;
+    margin: 15px 0 0 15px;
+}
+
+.amount {
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bolder;
+    color: rgb(79, 160, 79);
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.title {
+    text-align: center;
+    font-weight: bold;
+    margin-left: 70px;
+    font-size: 20px;
+    color: rgb(0, 49, 0);
+}
+
+.todaypickup{
+    
+}
+
+.completebutton{
+    border-radius: 5px;
+    position: relative;
+    right: -40px;
+    top: 25px;
+}
+
+
+.ordercard{
+    margin: 20px auto;
+    width: 80%;
+    background-color: rgba(196, 195, 184,0.5);
+    border-radius: 8px;
+    display: flex;
+}

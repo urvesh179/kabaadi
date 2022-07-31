@@ -1,0 +1,21 @@
+.container {
+    width: 500px;
+    height: 450px;
+    margin: 120px 150px 0 380px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.cancelbtn, .signupbtn {
+    float: left;
+    width: 50%;
+}
+
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+  }

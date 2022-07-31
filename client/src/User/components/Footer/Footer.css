@@ -1,0 +1,52 @@
+.container {
+    height: 250px;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    position: relative;
+    background-image: linear-gradient(to top,transparent,#fff),url(https://www.thekabadiwala.com/images/background-image.png);
+    background-repeat: no-repeat;
+}
+
+.info {
+    margin-top: 10px;
+    display: flex;
+}
+
+.container1 {
+    display: block;
+}
+
+.container2 {
+    display: block;
+    margin: 10px 0 10px 200px;
+}
+
+.container3 {
+    display: block;
+    margin: 35px 0px 10px 200px;
+}
+
+.container4{
+    margin: 0px 0px 20px 500px;
+    cursor: default;
+}
+
+.logo {
+    margin: 20px 0 0 70px;
+    width: 70px;
+    height: 70px;
+}
+
+.brandname {
+    color: green;
+    margin: 20px 0 0px 60px;
+}
+
+.brandname:hover {
+    cursor: default;
+}
+
+.links {
+    color: black;
+}

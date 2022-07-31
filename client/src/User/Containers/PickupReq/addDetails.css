@@ -1,0 +1,41 @@
+.main {
+    width: 50%;
+    margin: 80px auto;
+    background-color: white;
+    box-shadow: 2px 6px 41px 0 rgba(0, 0, 0, .15);
+    padding: 20px 20px 60px 20px;
+}
+
+.title {
+    font-family: 'Lora', serif;
+    margin: 0px 24%;
+    margin-bottom: -5px;
+    font-weight: 800;
+}
+
+.container{
+    width: 100%;
+    margin: 20px auto;
+}
+
+.btncancel, .btnsuccess {
+    float: left;
+    width: 50%;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.btncancel {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+
+.weight{
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 10px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+

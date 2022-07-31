@@ -1,0 +1,41 @@
+.main {
+    width: 40%;
+    margin: 125px auto;
+    background-color: white;
+    box-shadow: 2px 6px 41px 0 rgba(0, 0, 0, .15);
+    padding: 20px 20px 60px 20px;
+}
+
+.container{
+    width: 100%;
+    margin: 20px auto;
+}
+
+.title {
+    font-family: 'Lora', serif;
+    margin: 30px 24%;
+}
+
+.Input {
+    border-radius: 15px;
+    border: 5px solid black;
+}
+
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+.btncancel, .btnsuccess {
+    float: left;
+    width: 50%;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.btncancel {
+    padding: 14px 20px;
+    background-color: #f44336;
+}

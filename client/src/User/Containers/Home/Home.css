@@ -1,0 +1,155 @@
+.container {
+    
+}
+
+/* 3 steps process*/
+
+.process {
+    height: 350px;
+    width: 100%;
+    position: relative;
+    background-image: linear-gradient(to top, transparent, #fff), url(https://www.thekabadiwala.com/images/background-image.png);
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.title {
+    margin: 120px 300px 0 450px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.card {
+    background-color: #f1f1f1;
+    width: 250px;
+    text-align: center;
+    height: 250px;
+    border-radius: 5px;
+    box-shadow: 0 3px 5px 0;
+}
+
+.img {
+    height: 150px;
+    width: 200px;
+    z-index: -1;
+}
+
+.steps {
+    margin-top: 0;
+}
+
+/*scrap pickup details*/
+
+.scrapdetails {
+    height: 120px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+    background-image: linear-gradient(to top, transparent, #fff), url(https://www.thekabadiwala.com/images/background-image.png);
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.scrap {
+    height: 100px;
+    width: 200px;
+    text-align: center;
+    margin-top: auto;
+    font-family: 'Varela Round', sans-serif;
+}
+
+/* earn more by selling more*/
+
+.details {
+    height: 500px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    /* justify-content: space-around; */
+    margin-top: 70px;
+    z-index: -1;
+}
+
+.info1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 150px;
+}
+
+.blocks {
+    width: 200px;
+    height: 220px;
+    padding: 10px;
+    box-shadow: 0 3px 3px 0 #828282;
+}
+
+.img1 {
+    height: 50px;
+    width: 50px;
+}
+
+.small {
+    font-family: 'Varela Round', sans-serif;
+    color: grey;
+}
+
+.info2 {
+    width: 200px;
+    height: 280px;
+    padding: 10px;
+    box-shadow: 0 3px 3px 0;
+    margin:110px 0 0 100px;
+    box-shadow: 0 3px 3px 0 #828282;
+}
+
+.info3{
+    margin: 150px 0 0 150px;
+}
+
+/* save our earth */
+.savemain{
+    height: 400px;
+    width: 100%;
+    position: relative;
+    margin-top: 70px;
+    z-index: -1;
+    /* margin-bottom: 20px; */
+}
+
+.heading{
+    font-weight: bold;
+    text-align: center;
+}
+
+.savedetails{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 65px;
+}
+
+.save{
+    height: 150px;
+    width: 150px;
+    text-align: center;
+}
+
+.number{
+    font-weight: bold;
+    font-family: 'Varela Round', sans-serif;
+    margin-top: 10px;
+    margin-bottom: -20px;
+}
+
+.unit{
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+    color: rgb(143, 134, 134);
+    margin-top: -100px;
+}

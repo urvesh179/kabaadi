@@ -1,0 +1,139 @@
+.container {
+    top: 0px;
+    left: 0px;
+    height: 90px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    color: black;
+    position: fixed;
+    z-index: 50;
+}
+
+.logo {
+    margin: 15px 5px 5px 40px;
+    width: 70px;
+    height: 70px;
+    position: fixed;
+}
+
+.brandname {
+    color: green;
+    text-decoration: none;
+    left: 120px;
+    top: 30px;
+    position: fixed;
+}
+
+.brandname:hover {
+    color: green;
+    text-decoration: none;
+}
+
+.home {
+    color: black;
+    left: 530px;
+    top: 30px;
+    border: 0px solid black;
+    border-radius: 5px;
+    padding: 8px;
+    position: fixed;
+}
+
+.home:hover {
+    background-color: green;
+    color: white;
+    text-decoration: none;
+}
+
+.scrap {
+    color: black;
+    left: 690px;
+    top: 30px;
+    border: 0px solid black;
+    border-radius: 5px;
+    padding: 8px;
+    position: fixed;
+}
+
+.scrap:hover {
+    background-color: green;
+    color: white;
+    text-decoration: none;
+}
+
+.addgarbage {
+    color: black;
+    left: 820px;
+    top: 30px;
+    border: 0px solid black;
+    border-radius: 5px;
+    padding: 8px;
+    position: fixed;
+}
+
+.addgarbage:hover {
+    background-color: green;
+    color: white;
+    text-decoration: none;
+}
+
+.pickup {
+    color: black;
+    left: 800px;
+    top: 30px;
+    border: 0px solid black;
+    border-radius: 5px;
+    padding: 8px;
+    position: fixed;
+}
+
+.pickup:hover {
+    background-color: green;
+    color: white;
+    text-decoration: none;
+}
+
+.auth {
+    color: black;
+    left: 1000px;
+    top: 30px;
+    border: 0px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    position: fixed;
+}
+
+.auth:hover {
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* dropdown css */
+
+.container1 {
+    width: 200px;
+    box-shadow: 0 3px 3px 0 #828282;
+    margin: -30px 30px -242px 1000px;
+    z-index: 50;
+    background-color: white;
+    position:fixed;
+}
+
+.option {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    padding-left: 20px;
+    margin-bottom: -20px;
+    color: black;
+}
+
+.option:hover {
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+}
